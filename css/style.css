@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.svetofor{
+    border: 4px solid #aaa;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.chiroq{
+    width: 140px;
+    height: 140px;
+    border: 5px solid #bbb;
+    border-radius: 50%;
+    background-color: #777;
+   animation-iteration-count: infinite;
+}
+.chiroq.qizil{
+    animation-name: qizilchiroq;
+    animation-duration: 10s;
+}
+.chiroq.sariq{
+    animation-name: sariqchiroq;
+    animation-duration: 10s;
+}
+.chiroq.yashil{
+    animation-name: yashilchiroq;
+    animation-duration: 10s;
+}
+@keyframes qizilchiroq{
+    0%{
+         background-color: red;
+    }
+    24%{
+        background-color: red;
+    }
+    25%{
+        background-color: #777;
+    }
+    49%{
+
+    }
+    50%{
+        background-color: #777;
+    }
+    74%{
+
+    }
+    75%{
+        background-color: #777;
+    }
+    99%{
+
+    }
+    100%{
+        background-color: #777;
+    }
+}
+@keyframes sariqchiroq{
+    0%{
+        background-color: #777;
+    }
+    24%{
+        background-color: #777;
+    }
+    25%{
+        background-color: yellow;
+    }
+    49%{
+        background-color:yellow;
+    }
+    50%{
+        background-color: #777;
+    }
+    74%{
+        background-color: #777;
+    }
+    75%{
+        background-color: yellow;
+    }
+    99%{
+        
+    }
+    100%{
+        background-color: yellow;
+    }
+}
+@keyframes yashilchiroq{
+    0%{
+        background-color: #777;
+    }
+    24%{
+        background-color: #777;
+    }
+    25%{
+        background-color: #777;
+    }
+    49%{
+
+    }
+    50%{
+        background-color: #777;
+    }
+    51%{
+        background-color: green;
+    }
+    74%{
+        background-color: green;
+    }
+    75%{
+        background-color: #777;
+    }
+    99%{
+        
+    }
+    100%{
+        background-color: #777;
+    }
+}
+
